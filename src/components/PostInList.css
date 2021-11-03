@@ -1,0 +1,21 @@
+.PostInList {
+  list-style: none;
+}
+
+.PostInList .PostContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PostInList .PostTextContainer {
+  width: 90%;
+}
+
+.PostInList p {
+  font-weight: bold;
+}
+
+.PostInList h2 {
+  font-weight: 1000;
+}

@@ -1,0 +1,50 @@
+.PostForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+
+.PostForm .PostFormBox {
+  background-color: #79c5e8;
+  padding: 24px;
+  width: 50%;
+  height: fit-content;
+  border-radius: 5px;
+  position: relative;
+}
+
+.PostForm .PostFormForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.PostForm .ExitButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #79c5e8;
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+  font-weight: 1000;
+}
+
+.PostForm .AddPostButton {
+  font-family: "Dosis", sans-serif;
+  font-weight: 1000;
+  height: 50px;
+  margin: 20px 0px;
+}
+
+.PostForm #title,
+#thought .AddPostButton {
+  border-radius: 5px;
+  border: 1.5px solid black;
+}
